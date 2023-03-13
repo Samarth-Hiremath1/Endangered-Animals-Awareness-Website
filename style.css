@@ -1,0 +1,342 @@
+#map {
+  height: 700px;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+body {
+  margin:0;
+}
+#page1 {
+  width: 100%;
+  background-image: url("https://c402277.ssl.cf1.rackcdn.com/photos/946/images/carousel_small/forests-why-matter_63516847.jpg?1345534028");
+  height: 750px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+
+}
+.textt {
+  color: green;
+   font-family: "Times New Roman", Times, serif;
+}
+
+.tt {
+  font-size:20px;
+}
+#page2 {
+  width: 100%;
+  background-image: url("https://www.worldatlas.com/r/w728-h425-c728x425/upload/48/01/09/shutterstock-765073180-min.jpg");
+  height: 750px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ 
+}
+.ttt {
+  font-size: 30px;
+  color: white;
+}
+.wholepage {
+  height: 2000px;
+  margin: 0;
+  padding: 0;
+}
+
+#page4 {
+  background-image: url("https://cdn.britannica.com/17/133217-050-7EF4B14A/prairie-grassland-Buffalo-Gap-National-Grassland-South.jpg");
+  height: 1200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}
+
+#text1 {
+  font-size: 500%;
+  color: yellow;
+  position: absolute;
+  background-repeat: no-repeat;
+  top:40%;
+  left: 50;
+  text-align: center;
+  margin: 0 px;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+.amur-outline {
+  border: 3px solid black;
+  width: 19.3%;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-color: rgba(255, 174, 0, 0.514);
+}
+.amur-name {
+  
+  padding: 10px;
+}
+.amur-detailed-name {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.amur-detailed-sname {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.amur-status {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.amur-population {
+  border: 1px solid blue;
+ padding: 10px;
+}
+
+
+
+.hawksbill-outline {
+  /*border: 3px solid black;*/
+  width: 25%;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.37);
+  position: relative;
+  right: 0;
+}
+.hawksbill-name {
+  border: 1px solid black;
+  padding: 10px;
+}
+.hawksbill-detailed-name {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.hawksbill-detailed-sname {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.hawksbill-status {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.hawksbill-population {
+  border: 1px solid blue;
+ padding: 10px;
+}
+
+
+.hector-outline {
+  /*border: 3px solid black;*/
+  width: 25%;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.37);
+}
+.hector-name {
+  border: 1px solid black;
+  padding: 10px;
+}
+.hector-detailed-name {
+  border: 1px solid blue;
+  padding: 10px;
+}
+.hector-detailed-sname {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.hector-status {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.hector-population {
+  border: 1px solid blue;
+ padding: 10px;
+}
+
+
+.wrhino-outline {
+  /*border: 3px solid black;*/
+  width: 25%;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.37);
+}
+.wrhino-name {
+  border: 1px solid black;
+  padding: 10px;
+}
+.wrhino-detailed-name {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.wrhino-detailed-sname {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.wrhino-status {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.wrhino-population {
+  border: 1px solid blue;
+ padding: 10px;
+}
+
+
+.brhino-outline {
+  /*border: 3px solid black;*/
+  width: 25%;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.37);
+}
+.brhino-name {
+  border: 1px solid black;
+  padding: 10px;
+}
+.brhino-detailed-name {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.brhino-detailed-sname {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.brhino-status {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.brhino-population {
+  border: 1px solid blue;
+ padding: 10px;
+}
+
+
+.ielephant-outline {
+  /*border: 3px solid black;*/
+  width: 25%;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.37);
+}
+.ielephant-name {
+  border: 1px solid black;
+  padding: 10px;
+}
+.ielephant-detailed-name {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.ielephant-detailed-sname {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.ielephant-status {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.ielephant-population {
+  border: 1px solid blue;
+ padding: 10px;
+}
+
+
+.ictiger-outline {
+  /*border: 3px solid black;*/
+  width: 25%;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.37);
+}
+.ictiger-name {
+  border: 1px solid black;
+  padding: 10px;
+}
+.ictiger-detailed-name {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.ictiger-detailed-sname {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.ictiger-status {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.ictiger-population {
+  border: 1px solid blue;
+ padding: 10px;
+}
+
+
+.btiger-outline {
+  /*border: 3px solid black;*/
+  width: 25%;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.37);
+}
+.btiger-name {
+  border: 1px red;
+  padding: 10px;
+}
+.btiger-detailed-name {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.btiger-detailed-sname {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.btiger-status {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.btiger-population {
+  border: 1px solid blue;
+ padding: 10px;
+}
+#text {
+  margin: 0;
+}
+
+
+
+
+
