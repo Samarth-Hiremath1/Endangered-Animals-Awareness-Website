@@ -1,0 +1,28 @@
+
+.hector-outline {
+  /*border: 3px solid black;*/
+  width: 25%;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.37);
+}
+.hector-name {
+  border: 1px solid black;
+  padding: 10px;
+}
+.hector-detailed-name {
+  border: 1px solid blue;
+  padding: 10px;
+}
+.hector-detailed-sname {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.hector-status {
+  border: 1px solid blue;
+   padding: 10px;
+}
+.hector-population {
+  border: 1px solid blue;
+ padding: 10px;
+}
